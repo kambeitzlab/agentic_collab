@@ -19,6 +19,13 @@ to the memory stream, and "reverie" to refer to the overarching simulation
 framework.
 """
 
+import sys
+import os
+
+# Add the project root (agentic_collab) to Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
+
+
 import json
 import datetime
 import time
